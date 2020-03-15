@@ -8,6 +8,8 @@ blank0 = Label(root, text=f"Welcome, {user}")
 blank0.pack()
 
 username = Entry(root, width=50, borderwidth=1)
+# In Tkinter input fields are known as an Entry() object
+# they are placed within the window object as every other widget
 username.insert(0, "Username")
 username.pack()
 

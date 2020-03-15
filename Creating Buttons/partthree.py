@@ -13,6 +13,8 @@ def say_hello():
               for i in range(len(words))]
 
 
+# Example of using the Button widget within and assigning it function
+# object to be called whenever the button is clicked via command kwarg
 my_button = Button(root, text="Click Me", padx=50,
                    command=say_hello, fg="#000000", bg="#ffffff")
 my_button.pack()
